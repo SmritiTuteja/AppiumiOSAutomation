@@ -13,11 +13,12 @@ To know more about Appium design and concepts, please refer: http://appium.io/sl
 
 
 ## Prerequisites:
-1. Mac OS X 10.7 or higher
+1. MacOSX: 10.7 or higher
 2. Xcode (>= 4.6.3) and command line tools: 
   * Xcode: https://developer.apple.com/downloads/
   * Command-line tools: xcode-select --install
-3. Brew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+3. Brew: 
+  * ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 4. Node.js and Appium:
   * brew install node    # get node.js
   * npm install -g appium     # get appium
@@ -50,7 +51,6 @@ All other Appium capabilties details can be found here - https://github.com/appi
 1. Launch Appium Server:  appium &
 2. Run your scripts
 3. To View any element id : Launch Appium Inspector
-
 
 
 

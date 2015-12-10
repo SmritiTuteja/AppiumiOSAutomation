@@ -79,7 +79,7 @@ public class RecipesTest {
 
         //adding ingredients
         driver.findElementByAccessibilityId("Add Ingredient").click();
-        driver.findElementById("Name").click();
+        driver.findElementByAccessibilityId("Name").click();
         driver.findElementById("Name").sendKeys("ingredients test");
         driver.findElementById("Amount").sendKeys("2");
 
